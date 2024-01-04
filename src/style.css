@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(24, 24, 24);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+#header-nav{
+    border-radius: 0;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    margin-bottom: 1rem;
+    border-color: rgb(200, 200, 200);
+}
+
+#navName{
+    text-decoration: none; 
+    color: rgb(200, 200, 200);
+    font-size: 30px;
+    text-shadow: -.075em .075em 0 rgb(0, 0, 0);
+    float: right;
+    
+}
+
+#nav{
+    text-decoration: none; 
+    color: rgb(200, 200, 200);
+    font-size: 30px;
+    text-shadow: -.075em .075em 0 rgb(0, 0, 0);
+    float: left;
+    margin-left: auto;
+    
+}
+
+#aboutP{
+    margin-left: auto;
+    margin-right: auto;
+    text-indent: 40px;
+}
