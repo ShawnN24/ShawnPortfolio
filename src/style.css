@@ -9,35 +9,49 @@ body{
     font-size: 16px;
 }
 
+/********** NavBar **********/
 #header-nav{
     border-radius: 0;
     border-bottom-style: solid;
     border-bottom-width: 1px;
-    margin-bottom: 1rem;
     border-color: rgb(200, 200, 200);
+    margin-bottom: 1rem;
 }
-
 #navName{
     text-decoration: none; 
     color: rgb(200, 200, 200);
     font-size: 30px;
     text-shadow: -.075em .075em 0 rgb(0, 0, 0);
-    float: right;
-    
 }
-
 #nav{
     text-decoration: none; 
     color: rgb(200, 200, 200);
     font-size: 30px;
     text-shadow: -.075em .075em 0 rgb(0, 0, 0);
-    float: left;
-    margin-left: auto;
-    
+    margin-right: 50px;
+}
+#navName:hover, #nav:hover{
+    color: rgb(170, 170, 170);
 }
 
+/********** Home **********/
+#aboutImg{
+    width: 80%;
+    margin-bottom: 5rem;
+}
 #aboutP{
     margin-left: auto;
     margin-right: auto;
     text-indent: 40px;
+    
+}
+#affilImg{
+    width: 25%;
+    margin-right: 7%;
+    margin-bottom: 5rem;
+}
+
+
+#carouselImg{
+    padding-bottom: 8rem;
 }
