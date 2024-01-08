@@ -63,7 +63,7 @@ body{
     padding-bottom: 8rem;
 }
 
-/********** Experience **********/
+/********** Experience & Projects **********/
 #expBgrd{
     background-color:#222629;
     padding: 0.5rem;
@@ -76,7 +76,6 @@ body{
     background-color:#2c3135;
     transform:translateX(10px);
 }
-
 #expTitle{
     text-indent: 40px;
     font-size: 25px;
@@ -91,4 +90,27 @@ body{
 }
 #expPara{
     text-indent: 80px;
+}
+
+/********** Contact **********/
+.animated{
+    background-size: cover;
+}
+.fadeInLeft{
+    -webkit-animation: fadeInLeft 1.2s both;
+    -moz-animation: fadeInLeft 1.2s both;
+    -o-animation: fadeInLeft 1.2s both;
+    animation: fadeInLeft 1.2s both;
+}
+#type2{
+    background-color:rgb(27, 27, 27);
+    margin: 0;
+    padding: 0;
+    max-width: none;
+}
+#contactImg{
+    width: 250px;
+}
+#contactThx{
+    margin-bottom: 0;
 }
