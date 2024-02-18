@@ -1,5 +1,7 @@
 Portfolio Website
+
 Programming Languages: HTML, CSS, and JavaScript
+
 Technologies & Frameworks: Bootstrap and Github
 
 Multi paged website incorporating a responsive design utilizing the Bootstrap-5 framework and its built in grid breakpoints allowing for an appropriate page layout despite device size. Try changing the window size on each page!
